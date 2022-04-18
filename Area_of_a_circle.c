@@ -1,10 +1,11 @@
 #include<stdio.h>
-#define pi 3.14
+#define pi = 3.14
 int main()
 {
-    float r,area;
-    scanf("%f",&r);
-    area =pi*r*r;
+    int r;
+    float area;
+    scanf("%d",&r);
+    area = (3.14*r*r);
     printf("%.2f",area);
     return 0;
 }
