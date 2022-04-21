@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int num,s=0,m=1,temp,d;
-    scanf("%d",&num);
-    temp=num;
+    int n,s=0,m=1,temp,d;
+    scanf("%d",&n);
+    temp=n;
     while(temp!=0)
     {
         d=temp%10;
