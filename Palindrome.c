@@ -10,7 +10,7 @@ int main()
         sum=sum*10+r;
         n=n/10;
     }
-    if(temp==sum)
+    if(sum==temp)
     {
         printf("True");
     }
