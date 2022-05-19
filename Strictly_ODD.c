@@ -1,28 +1,26 @@
 #include<stdio.h>
 int main()
 {
-    int x[20],i,n,flag=0;
+    int x[20],n,i,flag=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
-    scanf("%d",&x[i]);
+    {
+        scanf("%d",&x[i]);
+    }
     for(i=0;i<n;i++)
     {
         if(x[i]%2!=0)
         {
             if(i%2==0)
             {
-               flag=1;
-               break;
+                flag=1;
+                break;
             }
         }
     }
     if(flag==0)
-    {
-        printf("True");
-    }
+    printf("True");
     else
-    {
-        printf("False");
-    }
+    printf("False");
     return 0;
 }
