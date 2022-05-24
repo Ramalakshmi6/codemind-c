@@ -1,4 +1,4 @@
-# include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int n,s=0,i;
@@ -11,7 +11,7 @@ int main()
         }
     }
     if(s>n)
-     printf("True");
+    printf("True");
     else
-     printf("False");
+    printf("False");
 }
