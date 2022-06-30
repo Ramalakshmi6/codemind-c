@@ -1,27 +1,21 @@
-#include<stdio.h>
-int function(int n)
-{
-  int i,f=0;
-  for(i=1;i<n;i++)
-  {
-      if(i*(i+1)==n)
-      {
-          f=true;
-          break;
-      }
-  }
-  return f;
-}
-int main()
-{
-    int n,i;
-    scanf("%d",&n);
-    if(function(n))
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int pronic ,i,count=0;
+    cin>>pronic;
+    for(i=1;i<=pronic;i++)
     {
-        printf("YES");
+        if(i*(i+1)==pronic){
+            count=1;
+            break;
+            
+        }
+    }
+    if(count==1){
+        cout<<"YES";
     }
     else
     {
-    printf("NO");
+        cout<<"NO";
     }
 }
